@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dusunsoti.netlify.app/sitemap.xml
+
+# Disallow access to certain files and directories
+Disallow: /assets/vendor/
+Disallow: /forms/
+Disallow: /*.txt$
+
+# Allow all image files
+Allow: /assets/img/
