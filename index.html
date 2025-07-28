@@ -13,677 +13,365 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Fonts - Hapus duplikasi, gunakan yang konsisten -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Amoeba
-  * Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Dusun Soti</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Beranda</a></li>
-          <li><a href="#profil">Profil</a></li>
-          <li><a href="#sejarah">Sejarah</a></li>
-          <li><a href="#struktur">Struktur</a></li>
-          <li><a href="#peta">Peta Wilayah</a></li>
-          <li><a href="#potensi">Potensi</a></li>
-          <li><a href="#umkm">UMKM</a></li>
-          <li><a href="#budaya">Budaya</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/pedesaan.jpg" alt="" data-aos="fade-in">
-
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Selamat Datang di Dusun Soti</h2>
-            <p>Dusun yang kaya akan budaya, potensi alam, dan kearifan lokal dengan masyarakat yang ramah dan sejahtera</p>
-            <a href="#profil" class="btn-get-started">Jelajahi Dusun</a>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- Profil Section -->
-    <section id="profil" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Profil Dusun Soti</h2>
-        <p>Mengenal lebih dekat tentang Dusun Soti yang penuh potensi dan kearifan lokal</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/alam.jpg" class="img-fluid" alt="Pemandangan Dusun Soti">
-          </div>
-          <div class="col-lg-6 order-2 order-lg-1 content">
-            <h3>Tentang Dusun Soti</h3>
-            <p class="fst-italic">
-              Dusun Soti merupakan salah satu dusun yang terletak di wilayah pedesaan dengan pemandangan alam yang indah dan udara yang sejuk. Dusun ini terdiri dari 4 wilayah RT dengan total sekitar 125 kepala keluarga yang hidup rukun dan damai. Masyarakat Dusun Soti sebagian besar bekerja sebagai petani, peternak, dan pengrajin.
-            </p>
-            
-            <h4 class="mt-4">Visi Dusun Soti</h4>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Menjadi dusun yang sejahtera, mandiri, dan berkelanjutan</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Mempertahankan nilai-nilai budaya dan kearifan lokal</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Menciptakan lingkungan yang asri dan lestari</span></li>
-            </ul>
-            
-            <h4 class="mt-4">Misi Dusun Soti</h4>
-            <ul>
-              <li><i class="bi bi-arrow-right"></i> <span>Mengembangkan potensi ekonomi masyarakat melalui UMKM</span></li>
-              <li><i class="bi bi-arrow-right"></i> <span>Meningkatkan kualitas sumber daya manusia</span></li>
-              <li><i class="bi bi-arrow-right"></i> <span>Melestarikan budaya dan tradisi lokal</span></li>
-              <li><i class="bi bi-arrow-right"></i> <span>Membangun infrastruktur yang mendukung kesejahteraan</span></li>
-              <li><i class="bi bi-arrow-right"></i> <span>Mengoptimalkan potensi wisata alam dan budaya</span></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Profil Section -->
-
-    <!-- Clients Section -->
-        <!-- Sejarah Section -->
-    <section id="sejarah" class="clients section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Sejarah Dusun Soti</h2>
-        <p>Perjalanan panjang dan warisan budaya yang membentuk identitas Dusun Soti</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-12">
-            <div class="content">
-              <p class="text-justify mb-4">
-                Sejarah Kepemimpinan Dusun Soti Kepala Dusun (Kadus) pertama di Dusun Soti adalah Bapak Atmo Sukarto yang berasal dari RT 14. Pada masa itu, pengangkatan Kadus belum melalui proses pemilihan. Kadus kedua adalah Bapak Toyiman dari RT 17, dan saat ini jabatan Kadus dipegang oleh Bapak Achmad Nur Yahya. Untuk jabatan Imam Mudin, awalnya dipegang oleh Bapak Somo Karnen, kemudian digantikan oleh Bapak Sukoharjono. Imam Mudin saat ini adalah Bapak Sukamto. Perkembangan kepemimpinan di tingkat RT juga mengalami pergantian seiring waktu:
-              </p>
-              
-              <div class="mb-4">
-                <ul class="list-unstyled">
-                  <li><i class="bi bi-check-circle text-success me-2"></i><strong>RT 14</strong> - Telah berganti kepemimpinan sebanyak empat kali, yaitu Bapak Supono, Bapak Riyadi, Bapak Widodo, dan Bapak Sarwoko.</li>
-                  <li><i class="bi bi-check-circle text-success me-2"></i><strong>RT 15</strong> - Telah dipimpin oleh enam orang, yaitu Bapak Suyono, Bapak Sukamto, Bapak Slamet, Bapak Sulaiman, Bapak Surono, dan Bapak Kusnan.</li>
-                  <li><i class="bi bi-check-circle text-success me-2"></i><strong>RT 16</strong> - Mengalami pergantian dari Bapak Parto, Bapak Dalimo, Bapak Giyanto, hingga Bapak Wahadi.</li>
-                  <li><i class="bi bi-check-circle text-success me-2"></i><strong>RT 17</strong> - Telah berganti tiga kali, yaitu Bapak Mitro, Bapak Suyoto, dan Bapak Muhroni.</li>
-                </ul>
-              </div>
-              
-              <p class="text-justify">
-                Ketua RW saat ini adalah Bapak Haryadi.
-
-Mayoritas penduduk Dusun Soti bermata pencaharian sebagai petani, yang menjadi tulang punggung kehidupan ekonomi masyarakat di wilayah ini.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Sejarah Section -->
-
-    <!-- Struktur Organisasi Section -->
-    <section id="struktur" class="cards section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Struktur Organisasi Dusun Soti</h2>
-        <p>Organisasi pemerintahan dusun yang terstruktur untuk melayani masyarakat dengan baik</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        <!-- Mindmap Structure -->
-        <div class="row justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-8 text-center">
-            <div class="mindmap-container">
-              <div class="mindmap-center">
-                <div class="card-item mindmap-center-card">
-                  <span><i class="bi bi-people"></i></span>
-                  <h4>KEPALA DUSUN</h4>
-                  <p>Bapak Achmad Nur Yahya</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Ketua RW -->
-        <div class="row justify-content-center mb-4" data-aos="fade-up" data-aos-delay="150">
-          <div class="col-lg-6">
-            <div class="card-item text-center">
-              <span><i class="bi bi-house"></i></span>
-              <h4 class="text-center">Ketua RW</h4>
-              <p class="text-center">Bapak Haryadi</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- RT Structure -->
-        <div class="row gy-4">
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item text-center">
-              <span><i class="bi bi-house-door"></i></span>
-              <h4 class="text-center">Ketua RT 14</h4>
-              <p class="text-center">Bapak Sarwoko</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item text-center">
-              <span><i class="bi bi-house-door"></i></span>
-              <h4 class="text-center">Ketua RT 15</h4>
-              <p class="text-center">Bapak Kusnan</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item text-center">
-              <span><i class="bi bi-house-door"></i></span>
-              <h4 class="text-center">Ketua RT 16</h4>
-              <p class="text-center">Bapak Wahadi</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="500">
-            <div class="card-item text-center">
-              <span><i class="bi bi-house-door"></i></span>
-              <h4 class="text-center">Ketua RT 17</h4>
-              <p class="text-center">Bapak Muhroni</p>
-            </div>
-          </div><!-- Card Item -->
-        </div>
-
-      </div>
-
-    </section><!-- /Struktur Organisasi Section -->
-
-    <!-- Peta Wilayah Section -->
-    <section id="peta" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Peta Wilayah Dusun Soti</h2>
-        <p>Mengenal batas wilayah dan pembagian area di Dusun Soti</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        
-        <!-- Peta Utama -->
-        <div class="row mb-5">
-          <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">
-            <div class="text-center">
-              <img src="assets/img/peta.jpg" class="img-fluid rounded" alt="Peta Wilayah Dusun Soti" style="width: 100%; height: 400px; object-fit: cover;">
-              <p class="mt-3 text-muted">Peta Wilayah Dusun Soti dan Sekitarnya</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-geo-alt"></i></div>
-              <div>
-                <h4 class="title">Batas Utara</h4>
-                <p class="description">Berbatasan dengan Dusun Karangtengah dan hutan lindung yang masih asri</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-compass"></i></div>
-              <div>
-                <h4 class="title">Batas Selatan</h4>
-                <p class="description">Berbatasan dengan Dusun Jetis dan area persawahan yang subur</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-signpost"></i></div>
-              <div>
-                <h4 class="title">Batas Timur</h4>
-                <p class="description">Berbatasan dengan Sungai Progo dan area perkebunan masyarakat</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-map"></i></div>
-              <div>
-                <h4 class="title">Batas Barat</h4>
-                <p class="description">Berbatasan dengan jalan raya utama dan area perkampungan tetangga</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-building"></i></div>
-              <div>
-                <h4 class="title">Pusat Dusun</h4>
-                <p class="description">Balai dusun, masjid, dan fasilitas umum berada di tengah permukiman</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-tree"></i></div>
-              <div>
-                <h4 class="title">Area Hijau</h4>
-                <p class="description">Memiliki area hijau yang luas untuk pertanian dan konservasi alam</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Peta Wilayah Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
-
-      <img src="assets/img/cta-bg.jpg" alt="">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Mari Bergabung Membangun Dusun Soti</h3>
-              <p>Bersama-sama kita wujudkan Dusun Soti yang lebih maju, sejahtera, dan lestari. Setiap kontribusi dan partisipasi Anda sangat berarti untuk kemajuan dusun kita tercinta.</p>
-              <a class="cta-btn" href="https://maps.app.goo.gl/5aoSWQzoY1xjWgzX9">Kunjungi Desa</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
-    <!-- Potensi Dusun Section -->
-    <section id="potensi" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Potensi Dusun Soti</h2>
-        <p>Berbagai potensi alam dan ekonomi yang dimiliki Dusun Soti untuk kemajuan bersama</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pertanian">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/pertanian.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Pertanian</h4>
-                  <p>Pertanian menjadi mata pencaharian utama dengan tanaman pangan seperti padi dan sayuran sebagai komoditas andalan. </p>
-                  <a href="assets/img/pertanian.jpg" title="Pertanian Padi" data-gallery="portfolio-gallery-potensi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-peternakan">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/anggrek.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Perkebunan Anggrek</h4>
-                  <p>Beberapa warga membudidayakan anggrek sebagai tanaman hias yang memiliki nilai jual tinggi dan daya tarik wisata. </p>
-                  <a href="assets/img/anggrek.jpg" title="Perkebunan Anggrek" data-gallery="portfolio-gallery-potensi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wisata">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/alam.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Wisata Alam</h4>
-                  <p>Pemandangan alam yang indah dengan udara segar, cocok untuk wisata keluarga dan edukasi</p>
-                  <a href="assets/img/alam.jpg" title="Wisata Alam" data-gallery="portfolio-gallery-potensi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ekonomi">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/perikanan.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Perikanan</h4>
-                  <p>Warga Dusun Soti memanfaatkan kolam-kolam buatan untuk budidaya ikan air tawar seperti lele dan nila.</p>
-                  <a href="assets/img/perikanan.jpg" title="Perikanan" data-gallery="portfolio-gallery-potensi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ekonomi">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Durian.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Perkebunan Durian</h4>
-                  <p>Dusun Soti memiliki beberapa kebun durian yang menghasilkan buah berkualitas tinggi saat musim panen tiba.</p>
-                  <a href="assets/img/Durian.jpg" title="Perkebunan Durian" data-gallery="portfolio-gallery-potensi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-     
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Potensi Dusun Section -->
-
-    <!-- UMKM Section -->
-    <section id="umkm" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>UMKM Dusun Soti</h2>
-        <p>Produk-produk unggulan dari usaha mikro, kecil, dan menengah masyarakat Dusun Soti</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active"><i class="bi bi-grid"></i> Semua Produk</li>
-            <li data-filter=".filter-makanan">Makanan</li>
-            <li data-filter=".filter-jasa">Jasa</li>
-            <li data-filter=".filter-tanaman">Tanaman</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-makanan" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item recommended">
-              <div class="umkm-image mb-3">
-                <img src="assets/img/tempegembus.jpg" class="img-fluid rounded" alt="Tempe Gembus" style="width: 100%; height: 200px; object-fit: cover;">
-              </div>
-              <h3>Tempe Gembus</h3>
-              <h4><span>Rp </span>250-1.000<span> / bungkus</span></h4>
-              <p>Tempe gembus adalah tempe yang dibuat dari ampas tahu—limbah padat dari proses pembuatan tahu—yang kemudian difermentasi menggunakan ragi tempe</p>
-              <div class="btn-wrap">
-                <a href="https://wa.me/62882005435834?text=Saya%20ingin%20memesan%20Tempe%20Gembus" class="btn-buy" target="_blank">Pesan via WhatsApp</a>
-              </div>
-            </div>
-          </div><!-- End UMKM Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-makanan" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item recommended">
-              
-              <div class="umkm-image mb-3">
-                <img src="assets/img/jeruk.jpg" class="img-fluid rounded" alt="Jeruk Rizky" style="width: 100%; height: 200px; object-fit: cover;">
-              </div>
-              <h3>Jeruk Rizky</h3>
-              <h4><span>Rp </span>12.000<span> / kg</span></h4>
-              <p>Jeruk Rizky adalah jeruk segar yang ditanam di kebun sendiri dengan perawatan khusus untuk menghasilkan buah yang manis dan berkualitas tinggi.</p>
-              <div class="btn-wrap">
-                <a href="https://wa.me/6288239488473?text=Saya%20ingin%20memesan%20Jeruk" class="btn-buy" target="_blank">Pesan via WhatsApp</a>
-              </div>
-            </div>
-          </div><!-- End UMKM Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jasa" data-aos="fade-up" data-aos-delay="300">
-            <div class="pricing-item recommended">
-              <div class="umkm-image mb-3">
-                <img src="assets/img/penjahit.jpg" class="img-fluid rounded" alt="Penjahit Fafa" style="width: 100%; height: 200px; object-fit: cover;">
-              </div>
-              <h3>Penjahit Fafa</h3>
-              <h4><span>Mulai- Rp </span>55.000</h4>
-              <ul>
-                <li>Seragam Sekolah 1 stel Rp 100.000</li>
-                <li>Kemeja Dewasa Mulai dari Rp 55.000-70.000</li>
-                <li>Gamis Mulai dari Rp 70.000</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="https://wa.me/6285643844175?text=Saya%20ingin%20menjahit%20pakaian%20saya" class="btn-buy" target="_blank">Pesan via WhatsApp</a>
-              </div>
-            </div>
-          </div><!-- End UMKM Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jasa" data-aos="fade-up" data-aos-delay="400">
-            <div class="pricing-item recommended">
-              <div class="umkm-image mb-3">
-                <img src="assets/img/loundry.jpg" class="img-fluid rounded" alt="Ari Laundry" style="width: 100%; height: 200px; object-fit: cover;">
-              </div>
-              <h3>Ari laundry</h3>
-              <h4><span>Rp </span>2.500<span> / kg</span></h4>
-              <p>Jasa laundry pakaian dengan kualitas terbaik dan harga terjangkau. Dikerjakan oleh tenaga profesional.</p>
-              <div class="btn-wrap">
-                <a href="https://wa.me/6283137497053?text=Saya%20ingin%20meloundry%20Pakaian" class="btn-buy" target="_blank">Pesan via WhatsApp</a>
-              </div>
-            </div>
-          </div><!-- End UMKM Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tanaman" data-aos="fade-up" data-aos-delay="500">
-            <div class="pricing-item recommended">
-              <div class="umkm-image mb-3">
-                <img src="assets/img/pramono.jpg" class="img-fluid rounded" alt="Jamu Tradisional" style="width: 100%; height: 200px; object-fit: cover;">
-              </div>
-              <h3>Anggrek</h3>
-              <h4><span> </span><span> </span></h4>
-               <p>Anggrek adalah salah satu jenis tanaman berbunga dari famili Orchidaceae yang terkenal karena keindahan dan keunikan bunganya.</p>
-              <div class="btn-wrap">
-                <a href="https://wa.me/6285729603442?text=Saya%20ingin%20memesan%20Anggrek" class="btn-buy" target="_blank">Pesan via WhatsApp</a>
-              </div>
-            </div>
-          </div><!-- End UMKM Item -->
-
-
-          </div><!-- End Isotope Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /UMKM Section -->
-
-    <!-- Budaya Section -->
-    <section id="budaya" class="faq section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Budaya Dusun Soti</h2>
-        <p>Warisan budaya dan tradisi yang masih lestari di Dusun Soti</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="content">
-              <h3><span>Tari Tradisional </span><strong>Soreng</strong></h3>
-              <div class="video-container mb-3" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-                <iframe 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                  src="https://www.youtube.com/embed/YLymu0wthlg" 
-                  title="Tari Soreng Dusun Soti" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <p>
-                Tarian ini menggambarkan kisah kepahlawanan para prajurit kerajaan, terutama yang setia kepada Raja atau tokoh-tokoh seperti Raden Wijaya dan pasukan Majapahit. Gerakan tarian yang dinamis dan penuh semangat menceritakan tentang keberanian dan loyalitas para prajurit.
-              </p>
-            </div>
-          </div>
-
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="content">
-              <h3><span>Tari Tradisional </span><strong>Warokan</strong></h3>
-              <div class="video-container mb-3" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-                <iframe 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                  src="https://www.youtube.com/embed/xVWCQmZwxgw" 
-                  title="Warokan Dusun Soti" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <p>
-                Seorang Warok (pelaku tradisi warokan) adalah tokoh yang memiliki ilmu kanuragan (kekuatan supranatural), kharisma tinggi, dan dianggap sebagai penjaga moral dan pelindung masyarakat. Warokan melambangkan kekuatan spiritual dan kebijaksanaan hidup.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="content">
-              <h3><span>Tari Tradisional </span><strong>Topeng Ireng</strong></h3>
-              <div class="video-container mb-3" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-                <iframe 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                  src="https://www.youtube.com/embed/yWSW-SUrzQ0" 
-                  title="Tari Topeng Ireng Dusun Soti" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <p>
-                Tari Topeng Ireng adalah tarian tradisional yang berasal dari daerah Magelang, Jawa Tengah. Tarian ini merupakan hasil perpaduan antara seni tari, pencak silat, dan unsur religi. Penari menggunakan topeng berwarna hitam yang melambangkan kekhusyukan dan kekuatan spiritual.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="content">
-              <h3><span>Tari Tradisional </span><strong>Jaranan</strong></h3>
-              <div class="video-container mb-3" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-                <iframe 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                  src="https://www.youtube.com/embed/xK0D1h_Q-rY" 
-                  title="Tari Jaranan Dusun Soti" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <p>
-                Tarian ini menggunakan properti utama berupa kuda tiruan (biasanya terbuat dari anyaman bambu atau kulit) yang disebut jaran kepang. Jaranan tidak hanya sebagai hiburan, tetapi juga memiliki makna spiritual dan sering dikaitkan dengan ritual penyembuhan dan kesuburan.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="content">
-              <h3><span>Tari Tradisional </span><strong>Kebluk</strong></h3>
-              <div class="video-container mb-3" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-                <iframe 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                  src="https://www.youtube.com/embed/IPTJFRF9XqQ" 
-                  title="Tari Kebluk Dusun Soti" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <p>
-                Tari Kebluk adalah tarian tradisional yang berasal dari Jawa Tengah, khususnya daerah Magelang dan sekitarnya. Tarian ini merupakan bagian dari kesenian rakyat yang berkembang di kalangan masyarakat pedesaan dan biasanya dipentaskan dalam acara syukuran, sedekah bumi, atau hajatan.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Budaya Section -->
-
   
 
-  </main>
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-  <footer id="footer" class="footer dark-background">
+</head>
 
-   
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Dusun Soti</div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="potensi.html">Potensi</a></li>
+                    <li><a href="umkm.html">UMKM</a></li>
+                    <li><a href="budaya.html">Budaya</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hero">
+                <h1>Selamat Datang di Dusun Soti</h1>
+                <p>Sebuah dusun yang kaya akan potensi alam dan budaya dengan masyarakat yang ramah dan bersahabat</p>
+                <a href="#profil" class="btn">Jelajahi Dusun Kami</a>
+            </div>
+        </div>
+    </header>
+    
+    <section id="profil" class="container">
+        <div class="section-title">
+            <h2>Profil Dusun</h2>
+        </div>
+        <div class="profil-content">
+            <p>Dusun Soti merupakan salah satu dusun yang terletak di wilayah pedesaan dengan pemandangan alam yang indah dan udara yang sejuk. Dusun ini terdiri dari 4 wilayah RT dengan total sekitar 125 kepala keluarga yang hidup rukun dan damai. Masyarakat Dusun Soti sebagian besar bekerja sebagai petani, peternak, dan pengrajin. Dusun Soti beralamat di Dusun Soti, Sidomulyo, Candimulyo, Magelang, Jawa Tengah.</p>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Dusun Soti</strong> <span>2025 - Semua Hak Cipta Dilindungi</span></p>
-      <div class="credits">
-        Website Resmi Dusun Soti - Membangun Dusun Bersama Masyarakat
-      </div>
-      <P>KKN UPNVYK AA 83 032</P>
+            <div class="visi-misi">
+                <div class="visi">
+                    <h3>Visi Dusun Soti</h3>
+                    <p>"Mewujudkan Dusun Soti yang mandiri, sejahtera, dan berbudaya melalui pemberdayaan masyarakat berbasis potensi lokal dan pelestarian lingkungan."</p>
+                </div>
+                
+                <div class="misi">
+                    <h3>Misi Dusun Soti</h3>
+                    <ul>
+                        <li>Mengembangkan pertanian organik berkelanjutan</li>
+                        <li>Meningkatkan kualitas sumber daya manusia</li>
+                        <li>Mengoptimalkan potensi wisata alam dan budaya</li>
+                        <li>Memperkuat ekonomi kreatif berbasis UMKM</li>
+                        <li>Menjaga kelestarian lingkungan dan adat istiadat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="profil" class="container">
+        <div class="section-title">
+            <h2>Sejarah Dusun</h2>
+        </div>
+        <div class="profil-content">
+            <p>Sejarah Kepemimpinan Dusun Soti
+
+Kepala Dusun (Kadus) pertama di Dusun Soti adalah Bapak Atmo Sukarto yang berasal dari RT 14. Pada masa itu, pengangkatan Kadus belum melalui proses pemilihan. Kadus kedua adalah Bapak Toyiman dari RT 17, dan saat ini jabatan Kadus dipegang oleh Bapak Achmad Nur Yahya.
+
+Untuk jabatan Imam Mudin, awalnya dipegang oleh Bapak Somo Karnen, kemudian digantikan oleh Bapak Sukoharjono. Imam Mudin saat ini adalah Bapak Sukamto.
+
+Perkembangan kepemimpinan di tingkat RT juga mengalami pergantian seiring waktu:
+</p>
+<ul style="margin-left: 2rem; margin-top: 1rem;">
+                <li><strong>RT 14:</strong> Telah berganti kepemimpinan sebanyak empat kali, yaitu Bapak Supono, Bapak Riyadi, Bapak Widodo, dan Bapak Woko.</li>
+                <li><strong>RT 15:</strong> Telah dipimpin oleh enam orang, yaitu Bapak Suyono, Bapak Sukamto, Bapak Slamet, Bapak Sulaiman, Bapak Surono, dan Bapak Kusnan.</li>
+                <li><strong>RT 16:</strong> Mengalami pergantian dari Bapak Parto, Bapak Dalimo, Bapak Giyanto, hingga Bapak Wahadi.</li>
+                <li><strong>RT 17:</strong> Telah berganti tiga kali, yaitu Bapak Mitro, Bapak Suyoto, dan Bapak Muhroni.</li>
+            </ul><br>
+<p>Ketua RW saat ini adalah Bapak Haryadi.</p>
+<p>Mayoritas penduduk Dusun Soti bermata pencaharian sebagai petani, yang menjadi tulang punggung kehidupan ekonomi masyarakat di wilayah ini.</p>
+        </div>
+    </section>
+    
+    
+    
+    <section id="struktur-organisasi" class="container">
+    <div class="section-title">
+        <h2>Struktur Organisasi Dusun Soti</h2>
+        <p>Hierarki kepemimpinan dan kelembagaan di Dusun Soti</p>
     </div>
 
-  </footer>
+    <div class="org-chart">
+        <!-- Level 1 - Kepala Dusun -->
+        <div class="org-level">
+            <div class="org-node">
+                <div class="org-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="org-details">
+                    <h3>Bapak Achmad Nur Yahya</h3>
+                    <p>Kepala Dusun</p>
+                </div>
+            </div>
+        </div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Konektor ke bawah -->
+        <div class="org-connector vertical"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+        <!-- Level 2 - RW dan Imam -->
+        <div class="org-level horizontal">
+            <div class="org-node">
+                <div class="org-icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <div class="org-details">
+                    <h3>Bapak Haryadi</h3>
+                    <p>Ketua RW</p>
+                </div>
+            </div>
+            
+            
+        </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <!-- Konektor ke bawah -->
+        <div class="org-connector vertical"></div>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+        <!-- Level 3 - RT -->
+        <div class="org-level horizontal">
+            <div class="org-node">
+                <div class="org-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="org-details">
+                    <h3>Bapak Sarwoko</h3>
+                    <p>Ketua RT 14</p>
+                </div>
+            </div>
 
+            <div class="org-node">
+                <div class="org-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="org-details">
+                    <h3>Bapak Kusnan</h3>
+                    <p>Ketua RT 15</p>
+                </div>
+            </div>
+
+            <div class="org-node">
+                <div class="org-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="org-details">
+                    <h3>Bapak Wahadi</h3>
+                    <p>Ketua RT 16</p>
+                </div>
+            </div>
+
+            <div class="org-node">
+                <div class="org-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="org-details">
+                    <h3>Bapak Muhroni</h3>
+                    <p>Ketua RT 17</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="peta" class="container">
+        <div class="section-title">
+            <h2>Peta Wilayah</h2>
+        </div>
+        <div class="map-container">
+            <img src="assets/img/peta.jpg" alt="Wilayah Pertanian RT 14" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <p>Peta di atas menunjukkan wilayah Dusun Soti RT 14</p>
+    </section>
+    
+    <section id="potensi" class="container">
+        <div class="section-title">
+            <h2>Potensi Dusun</h2>
+        </div>
+        <p>Dusun Soti memiliki berbagai potensi yang dapat dikembangkan untuk kemajuan masyarakat. Berikut ringkasan potensi utama:</p><br>
+        <div class="potensi-grid">
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/pertanian.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Pertanian</h3>
+                    <p>Pertanian menjadi mata pencaharian utama dengan tanaman pangan seperti padi dan sayuran sebagai komoditas andalan.</p>
+                </div>
+            </div>
+            
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/anggrek.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Perkebunan Anggrek</h3>
+                    <p>Beberapa warga membudidayakan anggrek sebagai tanaman hias yang memiliki nilai jual tinggi.</p>
+                </div>
+            </div>
+            
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/perikanan.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Perikanan</h3>
+                    <p>Warga Dusun Soti memanfaatkan kolam-kolam buatan untuk budidaya ikan air tawar.</p>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="potensi.html" class="btn">Lihat Detail Potensi</a>
+        </div>
+    </section>
+
+    <section id="umkm" class="container">
+        <div class="section-title">
+            <h2>UMKM Dusun Soti</h2>
+        </div>
+        <p>Dusun Soti memiliki berbagai Usaha Mikro Kecil dan Menengah (UMKM) yang menghasilkan produk unggulan berkualitas.</p>
+        
+        <div class="umkm-grid">
+            <div class="umkm-card">
+                <div class="umkm-img" style="background-image: url('assets/img/tempegembus.jpg');"></div>
+                <div class="umkm-info">
+                    <h3>Berkah Kedelai</h3>
+                    <p class="price">Rp 250-1.000/bungkus</p>
+                    <p>Berkah Kedelai Pak Woko menjual olahan kedelai segar seperti tempe gembus dan produk kedelai berkualitas lainnya dengan rasa yang lezat dan harga bersahabat.</p>
+                </div>
+            </div>
+            
+            <div class="umkm-card">
+                <div class="umkm-img" style="background-image: url('assets/img/jeruk.jpg');"></div>
+                <div class="umkm-info">
+                    <h3>Rizky Buah</h3>
+                    <p class="price">Rp 12.000/kg</p>
+                    <p>Rizky buah menjual berbagai jenis buah yang berkualitas salah satunya adalah jeruk</p>
+                </div>
+            </div>
+            
+            <div class="umkm-card">
+                <div class="umkm-img" style="background-image: url('assets/img/pramono.jpg');"></div>
+                <div class="umkm-info">
+                    <h3>Anggrek</h3>
+                    
+                    <p>Anggrek adalah salah satu jenis tanaman berbunga dari famili Orchidaceae yang terkenal karena keindahan dan keunikan bunganya.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="umkm.html" class="btn">Lihat Semua Produk UMKM</a>
+        </div>
+    </section>
+
+    <section id="budaya" class="container">
+        <div class="section-title">
+            <h2>Budaya Dusun Soti</h2>
+        </div>
+        <p>Dusun Soti memiliki kekayaan budaya yang beragam dan masih terjaga hingga saat ini.</p>
+        
+        <div class="budaya-grid">
+            <div class="budaya-card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/YLymu0wthlg" title="Tarian Soreng Dusun Soti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="budaya-info">
+                    <h3>Soreng</h3>
+                    <p>Tarian ini menggambarkan kisah kepahlawanan para prajurit kerajaan.</p>
+                </div>
+            </div>
+            
+            <div class="budaya-card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/xVWCQmZwxgw" title="Warokan Dusun Soti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="budaya-info">
+                    <h3>Warokan</h3>
+                    <p>Seorang Warok adalah tokoh yang memiliki ilmu kanuragan dan kharisma tinggi.</p>
+                </div>
+            </div>
+            
+            <div class="budaya-card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/yWSW-SUrzQ0" title="Topeng Ireng Dusun Soti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="budaya-info">
+                    <h3>Topeng Ireng</h3>
+                    <p>Tarian tradisional yang merupakan hasil perpaduan seni tari dan pencak silat.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="budaya.html" class="btn">Lihat Semua Budaya</a>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="container">
+            <div class="logo">Dusun Soti</div>
+            <p>Dusun yang Harmonis, Mandiri, dan Berbudaya</p>
+            
+            <ul class="footer-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="potensi.html">Potensi</a></li>
+                <li><a href="umkm.html">UMKM</a></li>
+                <li><a href="budaya.html">Budaya</a></li>
+            </ul>
+            
+            <div class="copyright">
+                <p>&copy; KKN UPNVYK AA 83 032</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('mobile-open');
+            
+            const toggleButton = document.querySelector('.mobile-menu-toggle i');
+            if (navLinks.classList.contains('mobile-open')) {
+                toggleButton.classList.remove('fa-bars');
+                toggleButton.classList.add('fa-times');
+            } else {
+                toggleButton.classList.remove('fa-times');
+                toggleButton.classList.add('fa-bars');
+            }
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.getElementById('navLinks');
+                const toggleButton = document.querySelector('.mobile-menu-toggle i');
+                navLinks.classList.remove('mobile-open');
+                toggleButton.classList.remove('fa-times');
+                toggleButton.classList.add('fa-bars');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const nav = document.querySelector('nav');
+            const navLinks = document.getElementById('navLinks');
+            
+            if (!nav.contains(e.target) && navLinks.classList.contains('mobile-open')) {
+                const toggleButton = document.querySelector('.mobile-menu-toggle i');
+                navLinks.classList.remove('mobile-open');
+                toggleButton.classList.remove('fa-times');
+                toggleButton.classList.add('fa-bars');
+            }
+        });
+    </script>
 </body>
 
 </html>

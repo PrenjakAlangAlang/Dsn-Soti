@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potensi Dusun Soti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <meta name="description" content="Potensi Dusun Soti - Eksplorasi berbagai potensi alam dan sumber daya Dusun Soti meliputi pertanian, perkebunan anggrek, durian, perikanan, dan wisata alam.">
+    <meta name="keywords" content="Potensi Dusun Soti, Pertanian, Anggrek, Durian, Perikanan, Wisata Alam, Sumber Daya Alam">
+    <meta name="author" content="KKN UPNVYK AA 83 032">
+   
+    <!-- Open Graph untuk social media -->
+    <meta property="og:title" content="Potensi Dusun Soti">
+    <meta property="og:description" content="Dusun Soti memiliki berbagai potensi alam dan sumber daya yang dapat dikembangkan untuk kesejahteraan masyarakat">
+ 
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Potensi Dusun Soti">
+    <meta name="twitter:description" content="Berbagai potensi alam dan sumber daya Dusun Soti">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Dusun Soti</div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="potensi.html">Potensi</a></li>
+                    <li><a href="umkm.html">UMKM</a></li>
+                    <li><a href="budaya.html">Budaya</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hero">
+                <h1>Potensi Dusun Soti</h1>
+                <p>Dusun Soti memiliki berbagai potensi alam dan sumber daya yang dapat dikembangkan untuk kesejahteraan masyarakat</p>
+            </div>
+        </div>
+    </header>
+    
+    <section class="container">
+        <div class="section-title">
+            <h2>Potensi Utama</h2>
+        </div>
+        
+        <div class="potensi-grid">
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/pertanian.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Pertanian</h3>
+                    <p>Pertanian menjadi mata pencaharian utama dengan tanaman pangan seperti padi dan sayuran sebagai komoditas andalan. Lahan pertanian yang subur dan sistem irigasi yang baik mendukung produktivitas tinggi.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/anggrek.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Perkebunan Anggrek</h3>
+                    <p>Beberapa warga membudidayakan anggrek sebagai tanaman hias yang memiliki nilai jual tinggi dan daya tarik wisata. Iklim yang cocok membuat anggrek tumbuh dengan baik.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/durian.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Perkebunan Durian</h3>
+                    <p>Dusun Soti memiliki beberapa kebun durian yang menghasilkan buah berkualitas tinggi saat musim panen tiba. Pohon durian yang sudah berumur puluhan tahun menghasilkan buah dengan rasa yang khas.</p>
+                   
+                </div>
+            </div>
+            
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/perikanan.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Perikanan</h3>
+                    <p>Warga Dusun Soti memanfaatkan kolam-kolam buatan untuk budidaya ikan air tawar seperti lele dan nila. Sistem budidaya yang baik menghasilkan ikan berkualitas tinggi.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="potensi-card">
+                <div class="potensi-img" style="background-image: url('assets/img/alam.jpg');"></div>
+                <div class="potensi-info">
+                    <h3>Wisata Alam</h3>
+                    <p>Pemandangan alam yang indah dengan udara yang sejuk menjadi potensi wisata alam yang menarik. Suasana pedesaan yang asri cocok untuk wisata agro dan eco-tourism.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    
+    <footer>
+        <div class="container">
+            <div class="logo">Dusun Soti</div>
+            <p>Dusun yang Harmonis, Mandiri, dan Berbudaya</p>
+            
+            <ul class="footer-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="potensi.html">Potensi</a></li>
+                <li><a href="umkm.html">UMKM</a></li>
+                <li><a href="budaya.html">Budaya</a></li>
+            </ul>
+            
+            <div class="copyright">
+                <p>&copy; KKN UPNVYK AA 83 032</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('mobile-open');
+            
+            const toggleButton = document.querySelector('.mobile-menu-toggle i');
+            if (navLinks.classList.contains('mobile-open')) {
+                toggleButton.classList.remove('fa-bars');
+                toggleButton.classList.add('fa-times');
+            } else {
+                toggleButton.classList.remove('fa-times');
+                toggleButton.classList.add('fa-bars');
+            }
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.getElementById('navLinks');
+                const toggleButton = document.querySelector('.mobile-menu-toggle i');
+                navLinks.classList.remove('mobile-open');
+                toggleButton.classList.remove('fa-times');
+                toggleButton.classList.add('fa-bars');
+            }); 
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const nav = document.querySelector('nav');
+            const navLinks = document.getElementById('navLinks');
+            
+            if (!nav.contains(e.target) && navLinks.classList.contains('mobile-open')) {
+                const toggleButton = document.querySelector('.mobile-menu-toggle i');
+                navLinks.classList.remove('mobile-open');
+                toggleButton.classList.remove('fa-times');
+                toggleButton.classList.add('fa-bars');
+            }
+        });
+    </script>
+</body>
+</html>
