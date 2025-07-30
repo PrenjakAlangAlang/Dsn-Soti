@@ -666,6 +666,41 @@ footer {
     width: 100%;
 }
 
+/* Add responsive padding for profil content paragraphs */
+.profil-content p {
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Add responsive padding for list items in profil content */
+.profil-content ul {
+    padding: 0 1.5rem;
+}
+
+.profil-content li {
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Add responsive padding for visi-misi paragraphs */
+.visi p, .misi p {
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Add responsive padding for peta section paragraphs */
+#peta p {
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive padding for judul descriptions */
+.judul-potensi, .judul-umkm, .judul-budaya {
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
     .container {
@@ -706,21 +741,52 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Responsif untuk tablet */
-    .org-level.horizontal {
-        flex-wrap: wrap;
+    .profil-content p {
+        padding: 0 1.5rem;
     }
     
-    .org-node {
-        width: 180px;
-        margin: 0.5rem;
+    .profil-content ul {
+        padding: 0 2rem;
     }
-    .map-container {
-        height: 555px;
+    
+    .profil-content li {
+        padding: 0 0.75rem;
+    }
+    
+    .visi p, .misi p {
+        padding: 0 1rem;
+    }
+    
+    /* Add padding to visi-misi containers */
+    .visi, .misi {
+        padding: 2rem;
+    }
+    
+    /* Add padding to visi-misi section to match other grids */
+    .visi-misi {
+        padding: 0 1.5rem;
+    }
+    
+    #peta p {
+        padding: 0 1.5rem;
+    }
+    
+ 
+    
+    /* Grid containers responsive padding - Tablet */
+    .potensi-grid, .budaya-grid, .umkm-grid {
+        padding: 0 1.5rem;
+    }
+    
+    /* Enhanced padding for judul descriptions - Tablet */
+    .judul-potensi, .judul-umkm, .judul-budaya {
+        padding: 0 1.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.6;
     }
 }
 
-/* Responsif untuk mobile */
 @media (max-width: 780px) {
     .mobile-menu-toggle {
         display: block;
@@ -763,6 +829,7 @@ footer {
     .visi-misi {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding: 0 1rem;
     }
     
     .leader-cards {
@@ -773,16 +840,19 @@ footer {
     .potensi-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding: 0 1rem;
     }
     
     .umkm-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding: 0 1rem;
     }
     
     .budaya-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding: 0 1rem;
     }
     
     .info-grid {
@@ -907,6 +977,17 @@ footer {
         padding: 1rem;
     }
     
+    /* Add responsive padding to visi-misi containers */
+    .visi, .misi {
+        padding: 1.5rem;
+        margin: 0 0.5rem;
+    }
+    
+    /* Add padding to visi-misi section to match other grids */
+    .visi-misi {
+        padding: 0 0.5rem;
+    }
+    
     .stats {
         grid-template-columns: 1fr;
     }
@@ -922,6 +1003,19 @@ footer {
     
     .highlight-card i {
         font-size: 2.5rem;
+    }
+    
+    /* Enhanced padding for judul descriptions - Mobile */
+    .judul-potensi, .judul-umkm, .judul-budaya {
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    /* Grid containers responsive padding - Mobile */
+    .potensi-grid, .budaya-grid, .umkm-grid {
+        padding: 0 0.5rem;
     }
 }
 
@@ -944,5 +1038,50 @@ footer {
     
     .highlight-card {
         padding: 1rem;
+    }
+
+    .profil-content p {
+        padding: 0 0.25rem;
+        font-size: 0.85rem;
+    }
+    
+    .profil-content ul {
+        padding: 0 0.75rem;
+    }
+    
+    .profil-content li {
+        padding: 0 0.1rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+    
+    .visi p, .misi p {
+        padding: 0 0.25rem;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    
+    /* Add responsive padding to visi-misi containers for extra small screens */
+    .visi, .misi {
+        padding: 1rem;
+        margin: 0 0.25rem;
+    }
+    
+    /* Add padding to visi-misi section to match other grids */
+    .visi-misi {
+        padding: 0 0.25rem;
+    }
+    
+    #peta p {
+        padding: 0 0.25rem;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    
+   
+    
+    /* Grid containers responsive padding - Extra Small Mobile */
+    .potensi-grid, .budaya-grid, .umkm-grid {
+        padding: 0 0.25rem;
     }
 }
